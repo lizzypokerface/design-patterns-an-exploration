@@ -2,6 +2,9 @@
 
 All 23 GoF (Gang of Four) Design Patterns In Python ([source](https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25231942#overview)).
 
+### Creational Design Patterns
+- [Factory Pattern](https://sbcode.net/python/factory/)
+
 ## Requirements
 
 The code runs on Python 3.
