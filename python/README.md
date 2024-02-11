@@ -7,6 +7,7 @@ All 23 GoF (Gang of Four) Design Patterns In Python ([source](https://www.udemy.
 * [Factory Pattern](https://sbcode.net/python/factory/)
 * [Abstract Factory Pattern](https://sbcode.net/python/abstract_factory/)
 * [Builder Pattern](https://sbcode.net/python/builder/)
+* [Prototype Pattern](https://sbcode.net/python/prototype/)
 
 ## Requirements
 
