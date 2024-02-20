@@ -10,6 +10,10 @@ All 23 GoF (Gang of Four) Design Patterns In Python ([source](https://www.udemy.
 * [Prototype Pattern](https://sbcode.net/python/prototype/)
 * [Singleton Pattern](https://sbcode.net/python/singleton/)
 
+### Structural Design Patterns
+
+* [Decorator Pattern](https://sbcode.net/python/decorator/)
+
 ## Requirements
 
 The code runs on Python 3.
