@@ -13,6 +13,7 @@ All 23 GoF (Gang of Four) Design Patterns In Python ([source](https://www.udemy.
 ### Structural Design Patterns
 
 * [Decorator Pattern](https://sbcode.net/python/decorator/)
+* [Adaptor Pattern](https://sbcode.net/python/adapter/)
 
 ## Requirements
 
