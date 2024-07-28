@@ -22,7 +22,7 @@ class MyClass(IProtoType):
         self.field = field  # any value of any type
 
     def clone(self):
-        " This clone method uses a shallow copy technique "
+        "This clone method uses a shallow copy technique"
         return type(self)(
             self.field  # a shallow copy is returned
             # self.field.copy() # this is also a shallow copy, but has

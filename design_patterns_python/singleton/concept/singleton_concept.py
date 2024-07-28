@@ -5,6 +5,7 @@ import copy
 
 class Singleton:
     "The Singleton Class"
+
     value = []
 
     def __new__(cls):

@@ -6,12 +6,12 @@ from interface_prototype import IProtoType
 class Document(IProtoType):
     "A Concrete Class"
 
-    def __init__(self, name, l):
+    def __init__(self, name, a_list):
         self.name = name
-        self.list = l
+        self.list = a_list
 
     def clone(self, mode):
-        " This clone method uses different copy techniques "
+        "This clone method uses different copy techniques"
         if mode == 1:
             # results in a 1 level shallow copy of the Document
             doc_list = self.list
@@ -31,5 +31,5 @@ class Document(IProtoType):
         )
 
     def __str__(self):
-        " Overriding the default __str__ method for our object."
+        "Overriding the default __str__ method for our object."
         return f"{id(self)}\tname={self.name}\tlist={self.list}"
