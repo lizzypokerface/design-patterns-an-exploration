@@ -23,6 +23,8 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
 
 ## Setup
 
+Navigate to the design_patterns_python directory.
+
 ### Conda Environment
 
 1. Create a Conda environment with Python 3.x:
@@ -42,11 +44,11 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     ```
 2. Create a virtual environment:
     ```bash
-    python -m venv .venv
+    python -m venv venv
     ```
 3. Activate the virtual environment:
     ```bash
-    source .venv/bin/activate
+    source venv/bin/activate
     ```
 
 ## Installation
