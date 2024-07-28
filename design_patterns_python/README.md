@@ -6,20 +6,27 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
 
 ### Creational Design Patterns
 
-- [Factory Pattern](https://sbcode.net/python/factory/)
-- [Abstract Factory Pattern](https://sbcode.net/python/abstract_factory/)
-- [Builder Pattern](https://sbcode.net/python/builder/)
-- [Prototype Pattern](https://sbcode.net/python/prototype/)
-- [Singleton Pattern](https://sbcode.net/python/singleton/)
+* [Factory Pattern](https://sbcode.net/python/factory/)
+    * The Factory pattern is useful when a class cannot anticipate the class of objects it must create, requiring the creation of objects without specifying the exact class of object that will be created.
+* [Abstract Factory Pattern](https://sbcode.net/python/abstract_factory/)
+    * The Abstract Factory pattern is useful when you need to create groups of related objects without knowing their exact types in advance, unlike the Factory pattern, which focuses on creating a single object type.
+* [Builder Pattern](https://sbcode.net/python/builder/)
+    * The Builder pattern is useful when an object needs to be created in a step-by-step manner, allowing for the construction of complex objects with a clear separation of concerns.
+* [Prototype Pattern](https://sbcode.net/python/prototype/)
+    * The Prototype pattern is useful when you need to create new objects by copying existing ones, ensuring efficient object creation.
+* [Singleton Pattern](https://sbcode.net/python/singleton/)
+    * The Singleton pattern is useful when you need to ensure a class has only one instance and provide a global access point to it.
 
 ### Structural Design Patterns
 
-- [Decorator Pattern](https://sbcode.net/python/decorator/)
-- [Adapter Pattern](https://sbcode.net/python/adapter/)
+* [Decorator Pattern](https://sbcode.net/python/decorator/)
+    * The Decorator pattern is useful when you want to add responsibilities to objects dynamically and transparently without altering their structure.
+* [Adapter Pattern](https://sbcode.net/python/adapter/)
+    * The Adapter pattern is useful when you need to make incompatible interfaces work together without changing their existing code.
 
 ## Requirements
 
-- Python 3.x
+* Python 3.x
 
 ## Setup
 
@@ -28,26 +35,39 @@ Navigate to the design_patterns_python directory.
 ### Conda Environment
 
 1. Create a Conda environment with Python 3.x:
-    ```bash
+
+
+```bash
     conda create --name py3x python=3.x
     ```
+
 2. Activate the Conda environment:
-    ```bash
+
+
+```bash
     conda activate py3x
     ```
 
 ### Virtual Environment
 
 1. Navigate to the project directory:
-    ```bash
+
+
+```bash
     cd python/
     ```
+
 2. Create a virtual environment:
-    ```bash
+
+
+```bash
     python -m venv venv
     ```
+
 3. Activate the virtual environment:
-    ```bash
+
+
+```bash
     source venv/bin/activate
     ```
 
@@ -66,13 +86,17 @@ pip install -r requirements.txt
 This project uses pre-commit for static code analysis and formatting.
 
 1. Install pre-commit hooks:
-    ```bash
+
+
+```bash
     pre-commit install
     pre-commit installed at .git/hooks/pre-commit
     ```
 
 2. To run pre-commit on all files:
-    ```bash
+
+
+```bash
     pre-commit run --all-files
     ```
 
