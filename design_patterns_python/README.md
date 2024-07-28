@@ -1,53 +1,57 @@
 # A Collection of Design Patterns in Python
 
-All 23 GoF (Gang of Four) Design Patterns In Python ([source](https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25231942#overview)).
+This repository contains implementations of all 23 GoF (Gang of Four) Design Patterns in Python. You can find the source course [here](https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25231942#overview).
+
+## Design Patterns
 
 ### Creational Design Patterns
 
-* [Factory Pattern](https://sbcode.net/python/factory/)
-* [Abstract Factory Pattern](https://sbcode.net/python/abstract_factory/)
-* [Builder Pattern](https://sbcode.net/python/builder/)
-* [Prototype Pattern](https://sbcode.net/python/prototype/)
-* [Singleton Pattern](https://sbcode.net/python/singleton/)
+- [Factory Pattern](https://sbcode.net/python/factory/)
+- [Abstract Factory Pattern](https://sbcode.net/python/abstract_factory/)
+- [Builder Pattern](https://sbcode.net/python/builder/)
+- [Prototype Pattern](https://sbcode.net/python/prototype/)
+- [Singleton Pattern](https://sbcode.net/python/singleton/)
 
 ### Structural Design Patterns
 
-* [Decorator Pattern](https://sbcode.net/python/decorator/)
-* [Adaptor Pattern](https://sbcode.net/python/adapter/)
+- [Decorator Pattern](https://sbcode.net/python/decorator/)
+- [Adapter Pattern](https://sbcode.net/python/adapter/)
 
 ## Requirements
 
-The code runs on Python 3.
+- Python 3.x
 
 ## Setup
 
 ### Conda Environment
 
-Create a [Conda](https://docs.conda.io/projects/miniconda/en/latest/index.html#quick-command-line-install) environment with Python 3.10:
-
-```bash
-conda create --name py310 python=3.10
-```
-
-Activate the Conda environment:
-
-```bash
-conda activate py310
-```
+1. Create a Conda environment with Python 3.x:
+    ```bash
+    conda create --name py3x python=3.x
+    ```
+2. Activate the Conda environment:
+    ```bash
+    conda activate py3x
+    ```
 
 ### Virtual Environment
 
-If you prefer using your own virtual environment(optional):
-
-```bash
-cd python/
-python -m venv .venv
-source .venv/bin/activate
-```
+1. Navigate to the project directory:
+    ```bash
+    cd python/
+    ```
+2. Create a virtual environment:
+    ```bash
+    python -m venv .venv
+    ```
+3. Activate the virtual environment:
+    ```bash
+    source .venv/bin/activate
+    ```
 
 ## Installation
 
-Install project dependencies:
+Install the project dependencies using the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
@@ -55,28 +59,19 @@ pip install -r requirements.txt
 
 ## Code Quality
 
-### Linter
+### Pre-commit
 
-Run the linter to check for code quality:
+This project uses pre-commit for static code analysis and formatting.
 
-```bash
-pylint
-```
+1. Install pre-commit hooks:
+    ```bash
+    pre-commit install
+    pre-commit installed at .git/hooks/pre-commit
+    ```
 
-### Code Formatting
+2. To run pre-commit on all files:
+    ```bash
+    pre-commit run --all-files
+    ```
 
-Use Black for code formatting:
-
-```bash
-black .
-```
-
-## Usage
-
-This folder is for keeping and explaining different design patterns in Python. It's here to help developers with effective solutions for various projects.
-
-## Future improvements
-
-* Might be overkill.
-* Integrate [Poetry](https://python-poetry.org)
-* Integrate [Pre-Commit](https://pre-commit.com/#install)
+Feel free to contribute or report any issues you encounter. Happy coding!
