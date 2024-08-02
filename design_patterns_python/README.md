@@ -39,14 +39,14 @@ Navigate to the design_patterns_python directory.
 
 ```bash
     conda create --name py3x python=3.x
-    ```
+```
 
 2. Activate the Conda environment:
 
 
 ```bash
     conda activate py3x
-    ```
+```
 
 ### Virtual Environment
 
@@ -55,21 +55,21 @@ Navigate to the design_patterns_python directory.
 
 ```bash
     cd python/
-    ```
+```
 
 2. Create a virtual environment:
 
 
 ```bash
     python -m venv venv
-    ```
+```
 
 3. Activate the virtual environment:
 
 
 ```bash
     source venv/bin/activate
-    ```
+```
 
 ## Installation
 
