@@ -23,9 +23,10 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     * The Decorator pattern is useful when you want to add responsibilities to objects dynamically and transparently without altering their structure.
 * [Adapter Pattern](https://sbcode.net/python/adapter/)
     * The Adapter pattern is useful when you need to make incompatible interfaces work together without changing their existing code.
-
 * [Facade Pattern](https://sbcode.net/python/facade/)
     * The Facade pattern simplifies complex systems by providing a unified interface, making it easier for clients to interact with the subsystems without needing to understand their intricacies.
+* [Bridge Pattern](https://sbcode.net/python/bridge/)
+    * The Bridge pattern connects an interface with its implementation, letting you change both independently. This makes it easier to add new features without affecting existing code.
 
 ## Requirements
 
