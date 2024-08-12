@@ -24,6 +24,9 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
 * [Adapter Pattern](https://sbcode.net/python/adapter/)
     * The Adapter pattern is useful when you need to make incompatible interfaces work together without changing their existing code.
 
+* [Facade Pattern](https://sbcode.net/python/facade/)
+    * The Facade pattern simplifies complex systems by providing a unified interface, making it easier for clients to interact with the subsystems without needing to understand their intricacies.
+
 ## Requirements
 
 * Python 3.x
