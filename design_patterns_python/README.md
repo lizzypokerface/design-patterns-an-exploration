@@ -29,6 +29,8 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     - The Bridge pattern connects an interface with its implementation, letting you change both independently. This makes it easier to add new features without affecting existing code.
 * [Composite Pattern](https://sbcode.net/python/composite/)
     - The Composite pattern allows you to treat individual objects and groups of objects uniformly. This makes it easy to work with complex tree structures, as you can use the same interface for both single items and collections.
+* [Flyweight Pattern](https://sbcode.net/python/flyweight/)
+    - The Flyweight pattern minimizes memory usage by sharing common data among multiple objects. It’s useful when you have a large number of similar objects, allowing you to store shared state externally and keep individual object sizes small.
 
 ## Requirements
 
