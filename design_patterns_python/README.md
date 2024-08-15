@@ -31,6 +31,8 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     - The Composite pattern allows you to treat individual objects and groups of objects uniformly. This makes it easy to work with complex tree structures, as you can use the same interface for both single items and collections.
 * [Flyweight Pattern](https://sbcode.net/python/flyweight/)
     - The Flyweight pattern minimizes memory usage by sharing common data among multiple objects. It’s useful when you have a large number of similar objects, allowing you to store shared state externally and keep individual object sizes small.
+* [Proxy Pattern](https://sbcode.net/python/proxy/)
+    - The Proxy pattern provides a surrogate or placeholder for another object to control access to it. This is useful for managing resource-intensive objects, adding security, or implementing lazy loading without changing the original object's interface.
 
 ## Requirements
 
