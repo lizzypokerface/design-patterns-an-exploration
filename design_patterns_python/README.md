@@ -1,6 +1,6 @@
 # A Collection of Design Patterns in Python
 
-This repository contains implementations of all 23 GoF (Gang of Four) Design Patterns in Python. You can find the source course [here](https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25231942#overview).
+This repository contains implementations of all 23 GoF (Gang of Four) Design Patterns in Python. You can find the source [here](https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25231942#overview).
 
 ## Design Patterns
 
@@ -33,6 +33,11 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     - The Flyweight pattern minimizes memory usage by sharing common data among multiple objects. It’s useful when you have a large number of similar objects, allowing you to store shared state externally and keep individual object sizes small.
 * [Proxy Pattern](https://sbcode.net/python/proxy/)
     - The Proxy pattern provides a surrogate or placeholder for another object to control access to it. This is useful for managing resource-intensive objects, adding security, or implementing lazy loading without changing the original object's interface.
+
+### Behavioural Design Patterns
+
+* [Command Pattern](https://sbcode.net/python/command/)
+    - The Command pattern encapsulates a request as an object, allowing you to parameterize clients with queues, requests, or operations. This enables features like undo/redo functionality and supports logging or queuing of commands without changing the objects that execute them.
 
 ## Requirements
 
