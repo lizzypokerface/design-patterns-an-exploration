@@ -38,6 +38,9 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
 
 * [Command Pattern](https://sbcode.net/python/command/)
     - The Command pattern encapsulates a request as an object, allowing you to parameterize clients with queues, requests, or operations. This enables features like undo/redo functionality and supports logging or queuing of commands without changing the objects that execute them.
+* [Chain of Responsibility Pattern](https://sbcode.net/python/chain_of_responsibility/)
+    - The Chain of Responsibility pattern passes a request along a chain of handlers, allowing multiple objects to process it without knowing which object will handle it. This promotes loose coupling and flexibility in handling requests, as you can add or change handlers easily.
+
 
 ## Requirements
 
