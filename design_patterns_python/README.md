@@ -42,6 +42,8 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     - The Chain of Responsibility pattern passes a request along a chain of handlers, allowing multiple objects to process it without knowing which object will handle it. This promotes loose coupling and flexibility in handling requests, as you can add or change handlers easily.
 * [Observer Pattern](https://sbcode.net/python/observer/)
     - The Observer pattern allows one object (the subject) to notify multiple dependent objects (observers) about changes in its state. This promotes a loose coupling between the subject and observers, making it easy to add or remove observers without affecting the subject.
+* [Interpreter Pattern](https://sbcode.net/python/interpreter/)
+    - The Interpreter pattern defines a representation for a language's grammar and provides an interpreter to evaluate sentences in that language. It’s useful for designing domain-specific languages, allowing for easy parsing and execution of expressions based on the defined grammar.
 
 
 ## Requirements
