@@ -44,7 +44,8 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     - The Observer pattern allows one object (the subject) to notify multiple dependent objects (observers) about changes in its state. This promotes a loose coupling between the subject and observers, making it easy to add or remove observers without affecting the subject.
 * [Interpreter Pattern](https://sbcode.net/python/interpreter/)
     - The Interpreter pattern defines a representation for a language's grammar and provides an interpreter to evaluate sentences in that language. It’s useful for designing domain-specific languages, allowing for easy parsing and execution of expressions based on the defined grammar.
-
+* [Iterator Pattern](https://sbcode.net/python/iterator/)
+    - The Iterator pattern provides a way to access elements of a collection sequentially without exposing its underlying structure. This allows for easier traversal of complex data structures, promoting flexibility and encapsulation.
 
 ## Requirements
 
