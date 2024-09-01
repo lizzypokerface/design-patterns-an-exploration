@@ -50,6 +50,8 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     - The Iterator pattern provides a way to access elements of a collection sequentially without exposing its underlying structure. This allows for easier traversal of complex data structures, promoting flexibility and encapsulation.
 * [Mediator Pattern](https://sbcode.net/python/mediator/)
     - The Mediator pattern centralizes communication between objects, reducing their dependencies on one another. This simplifies interactions and promotes loose coupling, making it easier to manage complex relationships in a system.
+* [Memento Pattern](https://sbcode.net/python/memento/)
+    - The Memento pattern captures and stores an object's state without exposing its internal structure, allowing you to restore the object to a previous state later. This is useful for implementing undo functionality or saving snapshots of an object's state.
 
 ## Requirements
 
