@@ -33,6 +33,8 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     - The Flyweight pattern minimizes memory usage by sharing common data among multiple objects. It’s useful when you have a large number of similar objects, allowing you to store shared state externally and keep individual object sizes small.
 * [Proxy Pattern](https://sbcode.net/python/proxy/)
     - The Proxy pattern provides a surrogate or placeholder for another object to control access to it. This is useful for managing resource-intensive objects, adding security, or implementing lazy loading without changing the original object's interface.
+* [Mediator Pattern](https://sbcode.net/python/mediator/)
+    - The Proxy pattern provides a surrogate or placeholder for another object to control access to it. This is useful for managing resource-intensive objects, adding security, or implementing lazy loading without changing the original object's interface.
 
 ### Behavioural Design Patterns
 
@@ -46,6 +48,8 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     - The Interpreter pattern defines a representation for a language's grammar and provides an interpreter to evaluate sentences in that language. It’s useful for designing domain-specific languages, allowing for easy parsing and execution of expressions based on the defined grammar.
 * [Iterator Pattern](https://sbcode.net/python/iterator/)
     - The Iterator pattern provides a way to access elements of a collection sequentially without exposing its underlying structure. This allows for easier traversal of complex data structures, promoting flexibility and encapsulation.
+* [Mediator Pattern](https://sbcode.net/python/mediator/)
+    - The Mediator pattern centralizes communication between objects, reducing their dependencies on one another. This simplifies interactions and promotes loose coupling, making it easier to manage complex relationships in a system.
 
 ## Requirements
 
