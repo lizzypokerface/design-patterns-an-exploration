@@ -64,6 +64,8 @@ Behavioral design patterns emphasize the interaction and responsibility between 
     - The Strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. This allows clients to choose an algorithm at runtime, promoting flexibility and the ability to change behavior without modifying the context in which the algorithm is used.
 * [Template Method Pattern](https://sbcode.net/python/template/)
     - The Template Method pattern defines the skeleton of an algorithm in a base class, allowing subclasses to override specific steps without changing the overall structure. This promotes code reuse and enforces a consistent process while giving flexibility to subclasses for customization.
+* [Visitor Pattern](https://sbcode.net/python/visitor/)
+    - The Visitor pattern lets you separate an algorithm from the objects on which it operates by defining a new operation without changing the classes of the elements. This promotes extensibility, allowing you to add new operations easily without modifying existing object structures, making it ideal for systems where you frequently need to perform operations on a set of diverse objects.
 
 ## Requirements
 
