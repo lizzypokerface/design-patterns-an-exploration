@@ -57,6 +57,8 @@ Behavioral design patterns emphasize the interaction and responsibility between 
     - The Memento pattern captures and stores an object's state without exposing its internal structure, allowing you to restore the object to a previous state later. This is useful for implementing undo functionality or saving snapshots of an object's state.
 * [State Pattern](https://sbcode.net/python/state/)
     - The State pattern allows an object to alter its behavior when its internal state changes, enabling it to appear as if it has changed its class. This promotes cleaner code by encapsulating state-specific behavior and making it easier to manage complex state transitions.
+* [Strategy Pattern](https://sbcode.net/python/strategy/)
+    - The Strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. This allows clients to choose an algorithm at runtime, promoting flexibility and the ability to change behavior without modifying the context in which the algorithm is used.
 
 ## Requirements
 
