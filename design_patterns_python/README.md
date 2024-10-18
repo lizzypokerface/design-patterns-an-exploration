@@ -5,6 +5,7 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
 ## Design Patterns
 
 ### Creational Design Patterns
+Creational design patterns deal with object creation mechanisms, aiming to create objects in a manner suitable to the situation. They help manage the instantiation process, providing flexibility and efficiency in object creation.
 
 * [Factory Pattern](https://sbcode.net/python/factory/)
     - The Factory pattern is useful when a class cannot anticipate the class of objects it must create, requiring the creation of objects without specifying the exact class of object that will be created.
@@ -18,6 +19,7 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     - The Singleton pattern is useful when you need to ensure a class has only one instance and provide a global access point to it.
 
 ### Structural Design Patterns
+Structural design patterns focus on the composition of classes and objects, allowing them to work together while ensuring that they remain flexible and efficient. They help define clear relationships and simplify complex structures.
 
 * [Decorator Pattern](https://sbcode.net/python/decorator/)
     - The Decorator pattern is useful when you want to add responsibilities to objects dynamically and transparently without altering their structure.
@@ -37,6 +39,7 @@ This repository contains implementations of all 23 GoF (Gang of Four) Design Pat
     - The Proxy pattern provides a surrogate or placeholder for another object to control access to it. This is useful for managing resource-intensive objects, adding security, or implementing lazy loading without changing the original object's interface.
 
 ### Behavioural Design Patterns
+Behavioral design patterns emphasize the interaction and responsibility between objects. They define how objects communicate and collaborate, promoting effective communication and reducing dependencies in a system.
 
 * [Command Pattern](https://sbcode.net/python/command/)
     - The Command pattern encapsulates a request as an object, allowing you to parameterize clients with queues, requests, or operations. This enables features like undo/redo functionality and supports logging or queuing of commands without changing the objects that execute them.
