@@ -55,6 +55,8 @@ Behavioral design patterns emphasize the interaction and responsibility between 
     - The Mediator pattern centralizes communication between objects, reducing their dependencies on one another. This simplifies interactions and promotes loose coupling, making it easier to manage complex relationships in a system.
 * [Memento Pattern](https://sbcode.net/python/memento/)
     - The Memento pattern captures and stores an object's state without exposing its internal structure, allowing you to restore the object to a previous state later. This is useful for implementing undo functionality or saving snapshots of an object's state.
+* [State Pattern](https://sbcode.net/python/state/)
+    - The State pattern allows an object to alter its behavior when its internal state changes, enabling it to appear as if it has changed its class. This promotes cleaner code by encapsulating state-specific behavior and making it easier to manage complex state transitions.
 
 ## Requirements
 
